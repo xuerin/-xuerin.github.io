@@ -6,7 +6,7 @@
     <title>Erin Xu</title>
     <style>
         body {
-            font-family: ibm-plex-mono, sans-serif;
+            font-family: 'IBM Plex Mono', sans-serif;
             margin: 40px;
             text-align: left; /* Left align the content */
             background-color: #f3f4f1;
@@ -15,10 +15,10 @@
             font-weight: normal;
         }
         img {
-            max-height: 5cm;  /* Restrict the height to 10cm */
-            width: auto;      /* Maintain the aspect ratio by setting width to auto */
-            height: auto;     /* Ensure height is automatically adjusted to keep aspect ratio */
-            margin-top: 0.5cm; 
+            max-width: 5cm;   /* Set a maximum width */
+            max-height: 5cm;  /* Set a maximum height */
+            object-fit: contain; /* Maintain aspect ratio within the set dimensions */
+            margin-top: 0.5cm; /* Space above the image */
         }
         a {
             color: #0000EE;
@@ -28,16 +28,11 @@
             text-decoration: underline;
         }
         .image-gallery {
-            display: flex;
-            justify-content: right;
-            gap: 0px;
-            margin-top: 10px;
+            margin-top: 10px; /* Reduced margin to bring the images closer to the text */
         }
-        /* Navigation styling */
         nav {
             margin-top: 20px;
         }
-        /* Spacing below the contact section */
         .spaced-section {
             margin-top: 1cm; /* Add space below this section */
             font-size: 0.9em; /* Make the font size smaller within this section */
@@ -52,7 +47,7 @@
     <!-- Contact Information -->
     <p>Contact me at: <a href="mailto:erin.xu@mail.utoronto.ca">erin.xu[at]mail.utoronto.ca</a></p>
 
-     <!-- Added spacing before the new header -->
+    <!-- Added spacing before the new header -->
     <div class="spaced-section">
         <h2>Selected Writing</h2>
         <!-- Navigation Links -->
