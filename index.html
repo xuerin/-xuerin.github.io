@@ -15,9 +15,9 @@
             font-weight: normal;
         }
         img {
-            max-width: 5cm;
-            height: 5cm;
-            max-height: 5cm; /* Restrict the height to 5cm */
+            max-height: 5cm;  /* Restrict the height to 5cm */
+            width: auto;      /* Maintain the aspect ratio by setting width to auto */
+            height: auto;     /* Ensure height is automatically adjusted to keep aspect ratio */
         }
         a {
             color: #0000EE;
@@ -30,7 +30,7 @@
         .image-gallery {
             display: flex;
             justify-content: center;
-            gap: 20px; /* Space between images */
+            gap: 0px; /* Space between images */
             margin-top: 20px;
         }
         /* Navigation styling */
@@ -54,9 +54,7 @@
 
     <!-- Navigation Links -->
     <nav>
-        <a href="index.html">Home</a>
         <a href="selected_writing.html">Selected Writing</a>
-        <a href="contact.html">Contact</a>
     </nav>
 </body>
 </html>
