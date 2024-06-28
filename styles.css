@@ -1,0 +1,42 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 35px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #e0e0e0;
+    border-color: #ccc;
+}
